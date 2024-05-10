@@ -1,0 +1,143 @@
+/*Global general */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Global body*/
+body {
+    background-color: rgb(15,15,15);
+}
+
+/* fonts */
+h1 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+  }
+
+h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+  }
+
+h3 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+  }
+
+p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+
+
+/* main */
+.index-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+   }
+
+.intro {
+    line-height: 5em;
+    margin: 2em;
+   }
+   
+.intro p {
+    line-height: 2em;
+    width: 800px;
+    
+   }
+
+/* Button*/
+.button-resume {
+    border: 1px solid rgb(43, 166, 207);
+    color: rgb(43, 166, 207);
+    background: none;
+    font-size: 20px;
+    padding: 1em;
+    margin-top: 3em;
+    font-family: "Roboto", "Sans-serif";
+    cursor: pointer;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+   }
+
+/* Button effect*/
+/*Changes button before it is clicked*/
+.button-resume:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: rgb(43, 166, 207);
+    z-index: -1;
+    transition: 0.5s;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+   }
+
+/*Changes color of text*/
+.button-resume:hover {
+    color: black;
+   }
+
+   /*Changes how much of the box is filled*/
+.button-resume:hover:before {
+    height: 185%;
+   }
+
+/*Skills*/
+.skills {
+    margin: 2em;
+    text-align: center
+  }
+.ul-title {
+    color: white;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 2em;
+  }
+
+.ul-heading {
+    color: white;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    line-height: 2.5em;
+  }
+
+.ul-body {
+    color: white;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  
+  /* bio */
+.bio {
+    margin: 4em 4em 2em 4em;
+    line-height: 2em;
+    text-align: start;
+  }
+  
+.bio h3 {
+    line-height: 3em;
+  }
+  
+.index-pic {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 20%;
+  }
+  
