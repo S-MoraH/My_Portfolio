@@ -51,8 +51,8 @@ p {
    
 .intro p {
     line-height: 2em;
-    width: 800px;
-    
+    width: 65%;
+    margin: 30px 0 0 0;
    }
 
 /* Button*/
