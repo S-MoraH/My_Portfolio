@@ -52,9 +52,8 @@ h3 {
   }
   
   .xp-entry p {
-    display: block;
-    margin: 1em auto 0 auto;
-    width: 70%;
+    margin: 10px 0 0 18%;
+    width: 65%;
   }
   
   .xp-entry h4 {
@@ -64,5 +63,6 @@ h3 {
   .xp-entry h1 {
     margin: 10px 0 .5em 66%;
   }
-  
+
+
   
