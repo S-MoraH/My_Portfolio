@@ -35,22 +35,23 @@ p {
 
 /* main */
 .contact-main {
-   width: 65%;
+   
     margin: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+
     
  }
  
  .content h1 {
-    margin: 0.5em 0.4em 0 0.4em;
+    margin: 0.5em 0.4em 0 0.4em;width: 40%
  }
  
  .content h2 {
-   margin: 0.5em 0.4em 0 0.4em;
+   margin: 0.5em 0.4em 0 0.4em;width: 40%
 }
  .content p {
     margin: 0.5em 2em 0 2em;
