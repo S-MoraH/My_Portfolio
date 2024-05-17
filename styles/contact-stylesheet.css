@@ -35,12 +35,14 @@ p {
 
 /* main */
 .contact-main {
+   width: 65%;
     margin: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+    
  }
  
  .content h1 {
