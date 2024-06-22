@@ -42,8 +42,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    
-    
+ 
  }
  
  .content h1 {
@@ -84,7 +83,7 @@ simply applies your properties to the direct children of your parent element*/
    padding: 0.5em 10em 0.5em 0.5em;
    font-size: 18px;
    background-color: rgb(224, 224, 224);
-   width: 59%;
+   width: 54%;
 }
 
 .content form > button {

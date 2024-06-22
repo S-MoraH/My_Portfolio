@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="styles/contact-stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="styles/navbar.css">
-    <script src="script.js"></script>
+    
 
     <title>Contact</title>
 </head>
 <body>
-       <!-- navbar -->
-       <nav>
+    <script src="script.js"></script>
+    
+    <!-- navbar -->
+    <nav>
         <div class="menu-bar">
             PORTFOLIO
             <!-- hamburger Icon -->
@@ -32,54 +34,53 @@
         </ul>
     </nav>
 
-        <!-- main -->
-        <div class="contact-main">
+    <!-- main -->
+    <div class="contact-main">
 
-            <!-- content -->
-            <div class="content">
-                <h1>
-                    Contact Me
-                </h1>
+        <!-- content -->
+        <div class="content">
+            <h1>
+                Contact Me
+            </h1>
 
-                <p>
-                Welcome to my Contact page! Use the fields below to send an email, or
-                use the other buttons to see my other social media accounts.
-                </p>
+            <p>
+            Welcome to my Contact page! Use the fields below to send an email, or
+            use the other buttons to see my other social media accounts.
+            </p>
 
 
-                  <!-- Email Send: https://formsubmit.co/ -->
-                <form action="https://formsubmit.co/6ae3dbd7c0c54cae5452eb5f281c3174" id="forms" method="POST">
-                    <h2>Send Me An Email</h2>
-                    <input type="hidden" name="subject" value="New Email From Portfolio Website">
-                    <input type="email" name="email" placeholder="Email Address" required>
-                    <!-- NEEDS form="forms" (connects to form), needs a name="TitleofTextArea", form ^ needs an id-->
-                    <textarea  cols="80" rows ="20" form="forms" name="Message" placeholder="Write Message Here" required></textarea></textarea>
-                    <button type="submit">Send</button>
-                </form>
-            </div>
+            <!-- Email Send: https://formsubmit.co/ -->
+            <form action="https://formsubmit.co/6ae3dbd7c0c54cae5452eb5f281c3174" id="forms" method="POST">
+                <h2>Send Me An Email</h2>
+                <input type="hidden" name="subject" value="New Email From Portfolio Website">
+                <input type="email" name="email" placeholder="Email Address" required>
+                <!-- NEEDS form="forms" (connects to form), needs a name="TitleofTextArea", form ^ needs an id-->
+                <textarea rows ="20" cols="80" form="forms" name="Message" placeholder="Write Message Here" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
 
-            <!-- accounts -->
-            <div class="accounts">
-                <ul>
-                    <li class="ul-title">Accounts</li>
-                    <li class="ul-appname">Linkedin</li>
-                    <li class="ul-logo">
-                        <a href="https://www.linkedin.com/in/hector-mora-silva/">
-                            <img src="assets/Linkedin-icon.svg" alt="Linkedin Logo" height="80" width="80"/>
-                        </a>
-                    </li>
-                    <li class="ul-appname">Github</li>
-                    <li class="ul-logo">
-                        <a href="https://github.com/S-MoraH">
-                            <img src="assets/Github-icon.svg" alt="Github Logo" height="80" width="80"/>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            
-        </ul>
+        <!-- accounts -->
+        <div class="accounts">
+            <ul>
+                <li class="ul-title">Accounts</li>
+
+                <li class="ul-appname">Linkedin</li>
+                <li class="ul-logo">
+                    <a href="https://www.linkedin.com/in/hector-mora-silva/">
+                        <img src="assets/Linkedin-icon.svg" alt="Linkedin Logo" height="80" width="80"/>
+                    </a>
+                </li>
+
+                <li class="ul-appname">Github</li>
+                <li class="ul-logo">
+                    <a href="https://github.com/S-MoraH">
+                        <img src="assets/Github-icon.svg" alt="Github Logo" height="80" width="80"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
 
         <!-- Footer -->
         <footer>
