@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
 }
- 
+
 /* Fonts */
 h1,
 h2,
@@ -377,7 +377,7 @@ a.btn:hover {
 .xp-entry {
   scroll-margin-top: 75px;
   margin-bottom: 5rem;
-} 
+}
 
 #exp-nav {
   position: -webkit-sticky;
@@ -598,6 +598,21 @@ i:hover {
     height: 8px;
   }
 
+  @supports(animation-timeline:view()) {
+
+    @media (prefers-reduced-motion: no-preference) {
+      .xp-entry {
+        opacity: 0;
+        filter: blur(5px);
+        scale: .8;
+        animation: fade-in ease-in-out forwards;
+        animation-timeline: view();
+        animation-range: 10% 30%;
+      }
+
+    }
+  }
+
   /* remove xp text padding */
   .xp-text {
     margin-top: 1rem;
@@ -611,7 +626,6 @@ i:hover {
 
   /* remove padding on contact */
   .contact-main {
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
-
 }
